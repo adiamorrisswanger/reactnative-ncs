@@ -45,7 +45,7 @@ class About extends Component {
         }
         return (
             <ScrollView>
-                <Mission item={this.props.partners}/>
+                <Mission />
                 <Card
                     title={'Community Partners'}>
                     <FlatList
